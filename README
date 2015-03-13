@@ -4,6 +4,8 @@ This collection of files and folder contains the complete program to solve a Sud
 
 	Initial list of files and folders, and descriptions:
 SudokuSolver.c:  The most up to date source code in C programming language
+SudokuSolver.exe The pre-compiled Windows executable, should be able to click on it, and it will run for you!
+README.md	 The README file created by Github, includes brief description of the program, and a short paragraph about me
 puzzles:	 The folder containing the unsolved puzzles, in comma separated file format
 	
 	Files that SudokuSolver creates:
