@@ -1,0 +1,17 @@
+List of files and descriptions (all are comma-separated file format Sudoku puzzles)
+
+
+	input.csv
+The puzzle from Insight Data Engineer Code Challenge e-mail
+
+	input_web_easy.csv
+Easy level puzzle from website given in Insight Data Engineer Code Challenge e-mail (http://www.sudoku.name/sudoku-solver/en)
+
+	input_web_med.csv
+Medium level puzzle from website given in Insight Data Engineer Code Challenge e-mail (http://www.sudoku.name/sudoku-solver/en)
+
+	input_web_hard.csv
+Hard level puzzle from website given in Insight Data Engineer Code Challenge e-mail (http://www.sudoku.name/sudoku-solver/en)
+
+	input_web_hardpp.csv:		
+Hard++ level puzzle from website given in Insight Data Engineer Code Challenge e-mail (http://www.sudoku.name/sudoku-solver/en)

@@ -1,0 +1,26 @@
+This collection of files and folder contains the complete program to solve a Sudoku puzzle
+
+
+
+	Initial list of files and folders, and descriptions:
+SudokuSolver.c:  The most up to date source code in C programming language
+puzzles:	 The folder containing the unsolved puzzles, in comma separated file format
+	
+	Files that SudokuSolver creates:
+SolvedSudokuPuzzle.csv:  The solution of the Sudoku puzzle, in comma-separated format
+	
+	*Typical way to compile and run SudokuSolver from Linux-like environment within Windows (e.g., cygwin) - type the following (minus "Step X)) at command line:
+Step 1)  gcc -o SudokuSolver SudokuSolver.c
+Step 2)  SudokuSolver
+*Note:  The source code is designed to be compiled on a Windows machine (e.g., in a cygwin terminal, or via a Windows C compiler).  If on other type of machine (Mac/Linux), make the following changes
+	1)  Un-comment line 176 ("sleep( 5 );")
+	2)  Comment line 175 ("Sleep( 5000 );")
+	3)  Delete line 5 ("#include <windows.h>")
+
+	Typical run times for given puzzles in folder puzzles (see README in puzzles folder for explanation of input files)
+	(run on a PC Intel Core Duo CPU, 2 GHz, 3 GB of RAM)
+input.csv:			0.04 sec.
+input_web_easy.csv:		0.06 sec.
+input_web_med.csv:		0.06 sec.
+nput_web_hard.csv:		1.90 sec.
+input_web_hardpp.csv:	      293.82 sec.
